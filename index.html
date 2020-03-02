@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form>
+    <form id="api-key-form">
       <label>
         Google Maps API Key
       </label>
-      <input type="text" name="key" />
+      <input type="text" id="api-key" name="key" />
       <input type="submit" />
     </form>
 
     <form id="api-key-test" class="hide">
+      <span>Refresh to apply new google maps key</span>
       <label for="">
         Auto Complete Test
       </label>

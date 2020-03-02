@@ -39,3 +39,11 @@ input[type="submit"] {
 .hide {
   display: none;
 }
+
+form > span {
+  display: block;
+  color: #999;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
